@@ -1,0 +1,43 @@
+AdminBundle\Entity\User:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '50'
+        firstname:
+            type: string
+            length: '50'
+        birthdate:
+            type: date
+        phonenumber:
+            type: string
+            length: '10'
+        mobilenumber:
+            type: string
+            length: '10'
+        adress:
+            type: string
+            length: 255
+        adress2:
+            type: string
+            length: 255
+        postalcode:
+            type: string
+            length: '5'
+        city:
+            type: string
+            length: '100'
+        email:
+            type: string
+            length: '100'
+        userpassword:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

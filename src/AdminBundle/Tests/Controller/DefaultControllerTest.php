@@ -1,6 +1,6 @@
 <?php
 
-namespace CT\CvThequeBundle\Tests\Controller;
+namespace AdminBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

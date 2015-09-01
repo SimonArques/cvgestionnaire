@@ -1,0 +1,18 @@
+AdminBundle\Entity\Skills:
+    type: entity
+    table: null
+    repositoryClass: AdminBundle\Entity\SkillsRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        skType:
+            type: string
+            length: '100'
+        skResume:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

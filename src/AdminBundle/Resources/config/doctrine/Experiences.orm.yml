@@ -1,0 +1,21 @@
+AdminBundle\Entity\Experiences:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        exType:
+            type: string
+            length: '100'
+        exResume:
+            type: string
+            length: 255
+        exDebut:
+            type: date
+        exEnd:
+            type: date
+    lifecycleCallbacks: {  }

@@ -1,0 +1,21 @@
+AdminBundle\Entity\Training:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        trtype:
+            type: string
+            length: '100'
+        trResume:
+            type: string
+            length: 255
+        trDebut:
+            type: date
+        trEnd:
+            type: date
+    lifecycleCallbacks: {  }
