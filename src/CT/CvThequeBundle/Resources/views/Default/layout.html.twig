@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    {% block head %}
 <head>
 
     <meta charset="utf-8">
@@ -9,22 +10,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>{{ titre }}</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="../../public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../../public/css/sidebar.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
 
 
 </head>
 
-<body>
+{% endblock %}
+
+{% block nav %}
+<nav>
 
     <div id="wrapper">
 
-        <!-- Sidebar -->
+
          <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
@@ -39,7 +43,7 @@
                     <a href="experiences.html">Expériences</a>
                 </li>
                 <li>
-                    <a href="competences.html" class="active">Compétences</a>
+                    <a href="competences.html">Compétences</a>
                 </li>
                 <li>
                     <a href="formation.html">Formation</a>
@@ -52,40 +56,15 @@
                 </li>
             </ul>
         </div>
-        <!-- /#sidebar-wrapper -->
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            
-        <form class="form-inline">
-            <fieldset>
+</nav>
+{% endblock %}
 
-            <!-- Experiences -->
-            <legend>Compétences</legend>
-
-                <!-- Select Basic -->
-                <div class="form-group">
-                  <label class="col-md-4 control-label" for="selectbasic">Domaine</label>
-                  <div class="col-md-4">
-                    <select id="selectbasic" name="selectbasic" class="form-control">
-                      <option value="1">Informatique</option>
-                      <option value="2">Commerce</option>
-                    </select>
-                  </div>
-                </div>
-
-                <!-- Textarea -->
-                <div class="form-group">
-                  <label class="col-md-4 control-label" for="textarea">Compétences dans le domaine </label>
-                  <div class="col-md-4">                     
-                    <textarea class="form-control" id="textarea" name="textarea">Présentez vos compétences...</textarea>
-                  </div>
-                </div>
-
-            </fieldset>
-        </form>
-
-
+{%% block body %}
+{% endblock %}
+    
+{% block footer %}
+<footer>
 
     </div>
     <!-- /#wrapper -->
@@ -103,7 +82,7 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+</footer>
 
-</body>
-
+{% endblock %}
 </html>

@@ -1,0 +1,26 @@
+cvtheque_homepage:
+    path:     /
+    defaults: { _controller: CvthequeBundle:Default:index }
+    
+cvtheque_identite:
+    path:     /identite
+    defaults: { _controller: CvthequeBundle:Default:identite}
+
+cvtheque_experiences:
+    path:     /experiences
+    defaults: { _controller: CvthequeBundle:Default:experiences }
+    
+    
+cvtheque_competences:
+    path:     /competences
+    defaults: { _controller: CvthequeBundle:Default:competences}
+    
+cvtheque_formation:
+    path:     /formation
+    defaults: { _controller: CvthequeBundle:Default:formation}
+    
+cvtheque_hobbies:
+    path:     /hobbies
+    defaults: { _controller: CvthequeBundle:Default:hobbies}
+    
+ 

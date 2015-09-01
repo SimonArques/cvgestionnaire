@@ -1,60 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Simple Sidebar - Start Bootstrap Template</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/sidebar.css" rel="stylesheet">
+{% extends "layout.html.twig" %}
+{% block head %}
+ {% endblock %}
 
 
-</head>
-
-<body>
-
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        CVTHEQUE
-                    </a>
-                </li>
-                <li>
-                    <a href="identite.html" >A propos de vous </a>
-                </li>
-                <li>
-                    <a href="experiences.html" class="active">Expériences</a>
-                </li>
-                <li>
-                    <a href="competences.html">Compétences</a>
-                </li>
-                <li>
-                    <a href="formation.html">Formation</a>
-                </li>
-                <li>
-                    <a href="hobbies.html">Hobbies</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Porfolio</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
         <div id="page-content-wrapper">
             
         <form class="form-horizontal">
@@ -96,6 +45,7 @@
 
 
     </div>
+
     <!-- /#wrapper -->
 
     <!-- jQuery -->
@@ -109,7 +59,7 @@
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
-    });
+    {);
     </script>
 
 </body>
