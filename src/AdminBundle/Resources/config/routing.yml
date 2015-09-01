@@ -1,3 +1,20 @@
 admin_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: AdminBundle:Default:index }
+    path:     /admin
+    defaults: { _controller: AdminBundle:Default:indexAdmin }
+    
+admin_afficher:
+    path:     /afficher
+    defaults: { _controller: AdminBundle:Default:afficher }
+    
+admin_rechercher:
+    path:     /rechercher
+    defaults: { _controller: AdminBundle:Default:rechercher}
+    
+admin_supprimer:
+    path:     /supprimer
+    defaults: { _controller: AdminBundle:Default:supprimer }
+    
+admin_parcourir:
+    path:     /parcourir
+    defaults: { _controller: AdminBundle:Default:parcourir }
+
