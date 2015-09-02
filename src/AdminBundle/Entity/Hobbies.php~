@@ -44,14 +44,4 @@ class Hobbies {
         return $this;
     }
 
-
-    /**
-     * Get hoType
-     *
-     * @return string 
-     */
-    public function getHoType()
-    {
-        return $this->hoType;
-    }
 }

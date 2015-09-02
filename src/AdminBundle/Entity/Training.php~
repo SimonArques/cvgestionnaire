@@ -97,7 +97,7 @@ class Training
     /**
      * Set trDebut
      *
-     * @param string $trDebut
+     * @param \DateTime $trDebut
      * @return Training
      */
     public function setTrDebut($trDebut)
@@ -110,7 +110,7 @@ class Training
     /**
      * Get trDebut
      *
-     * @return string
+     * @return \DateTime 
      */
     public function getTrDebut()
     {
@@ -120,7 +120,7 @@ class Training
     /**
      * Set trEnd
      *
-     * @param string $trEnd
+     * @param \DateTime $trEnd
      * @return Training
      */
     public function setTrEnd($trEnd)
@@ -133,7 +133,7 @@ class Training
     /**
      * Get trEnd
      *
-     * @return string 
+     * @return \DateTime 
      */
     public function getTrEnd()
     {
