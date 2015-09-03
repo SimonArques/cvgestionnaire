@@ -1,6 +1,6 @@
 <?php
 
-namespace AdminBundle\Entity;
+namespace CvthequeBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
@@ -13,7 +13,7 @@ class Experiences
     /**
      * @ORM\id
      * @ORM\Column(type="integer")
-     * @ORM\GeneratedValue(strategy="AUTO"
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
 

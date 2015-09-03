@@ -5,70 +5,70 @@ namespace AdminBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
- * @ORM\Table(name="user")
+ * @\Entity
+ * @\Table(name="user")
  */
 class User
 {
     /**
-     * @ORM\Id
-     * @ORM\Column(type="integer")
-     * @ORM\GeneratedValue(strategy="AUTO")
+     * @\Id
+     * @\Column(type="integer")
+     * @\GeneratedValue(strategy="AUTO")
      */
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @\Column(type="string", length=100)
      */
     private $name;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @\Column(type="string", length=100)
      */
     private $firstname;
 
     /**
-     * @ORM\Column(type="string", length=6)
+     * @\Column(type="string", length=6)
      */
     private $birthdate;
 
     /**
-     * @ORM\Column(type="string", length=10)
+     * @\Column(type="string", length=10)
      */
     private $phonenumber;
 
     /**
-     * @ORM\Column(type="string", length=10)
+     * @\Column(type="string", length=10)
      */
     private $mobilenumber;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @\Column(type="string", length=100)
      */
     private $adress;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @\Column(type="string", length=100)
      */
     private $adress2;
 
     /**
-     * @ORM\Column(type="string", length=5)
+     * @\Column(type="string", length=5)
      */
     private $postalcode;
 
     /**
-     * @ORM\Column(type="string", length=50)
+     * @\Column(type="string", length=50)
      */
     private $city;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @\Column(type="string", length=100)
      */
     private $email;
 
     /**
-     * @ORM\Column(type="string", length=20)
+     * @\Column(type="string", length=20)
      */
     private $userpassword;
 

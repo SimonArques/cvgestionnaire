@@ -1,6 +1,6 @@
 <?php
 
-namespace AdminBundle\Entity;
+namespace CvthequeBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

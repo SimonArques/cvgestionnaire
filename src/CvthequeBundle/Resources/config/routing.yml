@@ -23,4 +23,6 @@ cvtheque_hobbies:
     path:     /hobbies
     defaults: { _controller: CvthequeBundle:Default:hobbies}
     
- 
+cvtheque_ajouter:
+    path:     /ajouter
+    defaults: { _controller: CvthequeBundle:Default:ajouter}
